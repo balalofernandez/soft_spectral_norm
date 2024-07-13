@@ -1,5 +1,5 @@
 # Soft spectral normalization
-A parametrized way of imposing soft_spectral normalization in pytorch.
+A parametrized way of imposing soft spectral normalization in pytorch.
 
 Spectral normalization was a method originally proposed to improve training in Generative Adversarial Networks (GANs) to address the mode collapse issue. Mode collapse is simply a phenomenon that occurs when a generative model's outputs become overly homogeneous, failing to capture the full range of the true data distribution. In the context of images, the generator will produce a narrow range of highly similar results, which is undesired.
 
